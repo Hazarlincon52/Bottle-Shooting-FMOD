@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{028D4803-CFA3-A20A-ED06-A2083E5E37B7}</ProjectGuid>
+    <ProjectGuid>{0289BEFA-DE50-40E4-E9E2-51E290DDD165}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -1099,19 +1099,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="FMODUnityEditor.csproj">
-      <Project>{088160F6-44D7-E975-DBE0-921AFC6F0BB2}</Project>
+      <Project>{D9AE5C00-E20E-CC57-9F18-6C64B6620237}</Project>
       <Name>FMODUnityEditor</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnityResonance.csproj">
-      <Project>{7D65B478-8679-495C-1AF9-7749C7726678}</Project>
+      <Project>{9D34BFC4-8C26-6A8A-4E3A-B5D39065122E}</Project>
       <Name>FMODUnityResonance</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnity.csproj">
-      <Project>{9F6DB1AD-B217-EF89-42C7-F0C75484D878}</Project>
+      <Project>{CC5F0430-7625-7984-B7B2-F759EFA12265}</Project>
       <Name>FMODUnity</Name>
     </ProjectReference>
     <ProjectReference Include="FMODUnityResonanceEditor.csproj">
-      <Project>{4C167C4F-C601-8F07-4FFF-C5910C1DF0DF}</Project>
+      <Project>{8A2DB79C-D728-DD32-7634-A296572F52F7}</Project>
       <Name>FMODUnityResonanceEditor</Name>
     </ProjectReference>
   </ItemGroup>

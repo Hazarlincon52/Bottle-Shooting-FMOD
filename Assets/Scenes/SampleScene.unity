@@ -1008,6 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 519420028}
 --- !u!1 &568342807
 GameObject:
@@ -3363,10 +3364,10 @@ MonoBehaviour:
       Data2: 1243994464
       Data3: -895206506
       Data4: -1565503891
-    Path: event:/Music
+    Path: event:/BGM/Music
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -4964,7 +4965,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985391177}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
   m_Name: 
@@ -5456,28 +5457,28 @@ MonoBehaviour:
       Data2: 1186492262
       Data3: 836687790
       Data4: -1593396204
-    Path: event:/UI Sound/Click_Button
+    Path: event:/SFX/UI Sound/Click_Button
   shootSound:
     Guid:
       Data1: -1561477693
       Data2: 1196599300
       Data3: 1041881486
       Data4: -1441429756
-    Path: event:/Gun/Shoot
+    Path: event:/SFX/Gun/Shoot
   outOfBullets:
     Guid:
       Data1: 1552736454
       Data2: 1189077552
       Data3: 1537421991
       Data4: 2032836985
-    Path: event:/Gun/Out_of_Bullet
+    Path: event:/SFX/Gun/Out_of_Bullet
   reload:
     Guid:
       Data1: 450600128
       Data2: 1337302687
       Data3: 856078006
       Data4: -614860045
-    Path: event:/Gun/Reload
+    Path: event:/SFX/Gun/Reload
 --- !u!1001 &7185503228497821624
 PrefabInstance:
   m_ObjectHideFlags: 0

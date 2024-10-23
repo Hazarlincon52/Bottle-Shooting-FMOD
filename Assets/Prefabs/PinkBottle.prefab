@@ -152,25 +152,25 @@ MonoBehaviour:
   bottleBreak: {fileID: 6415783672941570845}
   glassBreakShoot:
     Guid:
-      Data1: 1481632401
-      Data2: 1199792314
-      Data3: -332036934
-      Data4: 1869493959
-    Path: event:/Bottle/Bottle_Break_Shoot
+      Data1: -1153900797
+      Data2: 1295699401
+      Data3: -2091999818
+      Data4: 965012037
+    Path: event:/SFX/Bottle/Bottle_Break_Shoot
   glassBreakDrop:
     Guid:
-      Data1: 1481632401
-      Data2: 1199792314
-      Data3: -332036934
-      Data4: 1869493959
-    Path: event:/Bottle/Bottle_Break_Shoot
+      Data1: 1216197818
+      Data2: 1097903429
+      Data3: 1589797810
+      Data4: 619191160
+    Path: event:/SFX/Bottle/Bottle_Break_Drop
   powerUps:
     Guid:
       Data1: 2097112784
       Data2: 1296666710
       Data3: -1388965234
       Data4: -1962491163
-    Path: event:/PowerUps
+    Path: event:/SFX/PowerUps/PowerUps
   point: 10
   minRotation: 0.5
   maxRotation: 1

@@ -78,6 +78,7 @@ public class Bottles : MonoBehaviour
         if(!hitGround && !GunBullets.Instance.GetOutOfBullets())// every time bottle get hit
         {
             GameManager.Instance.CalculateScore(point);
+            RuntimeManager.PlayOneShot(glassBreakShoot); //SFX Bootle break from bullet
             ShowBreak();
             rotateActive = false;
             RandomPowerUps();
@@ -92,7 +93,7 @@ public class Bottles : MonoBehaviour
         bottleBreak.enabled = true;
         rb.simulated = false;
         //AudioManager.instance.GlassShootSound();
-        RuntimeManager.PlayOneShot(glassBreakShoot); //SFX Bootle break from bullet
+        
     }
 
     private void RandomPowerUps()//activate random Powerups with 10% changes

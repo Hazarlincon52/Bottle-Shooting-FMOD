@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9F6DB1AD-B217-EF89-42C7-F0C75484D878}</ProjectGuid>
+    <ProjectGuid>{CC5F0430-7625-7984-B7B2-F759EFA12265}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>FMODUnity</AssemblyName>
@@ -109,16 +109,16 @@
     <None Include="Assets\Plugins\FMOD\platforms\win\lib\x86\fmodstudio.dll" />
     <None Include="Assets\Plugins\FMOD\platforms\win\lib\x86_64\fmodstudioL.dll" />
     <None Include="Assets\Plugins\FMOD\platforms\uwp\lib\arm\fmodstudio.dll" />
-    <None Include="Assets\Plugins\FMOD\platforms\win\lib\x86\fmodstudioL.dll" />
     <None Include="Assets\Plugins\FMOD\README.txt" />
-    <None Include="Assets\Plugins\FMOD\LICENSE.txt" />
     <None Include="Assets\Plugins\FMOD\platforms\uwp\lib\x64\fmod.dll" />
     <None Include="Assets\Plugins\FMOD\platforms\win\lib\x86_64\fmodstudio.dll" />
+    <None Include="Assets\Plugins\FMOD\platforms\win\lib\x86\fmodstudioL.dll" />
     <None Include="Assets\Plugins\FMOD\platforms\uwp\lib\x64\fmodstudio.dll" />
     <None Include="Assets\Plugins\FMOD\platforms\uwp\lib\x86\fmod.dll" />
     <None Include="Assets\Plugins\FMOD\FMODUnity.asmdef" />
     <None Include="Assets\Plugins\FMOD\platforms\win\lib\x86_64\resonanceaudio.dll" />
     <None Include="Assets\Plugins\FMOD\platforms\uwp\lib\x86\fmodstudio.dll" />
+    <None Include="Assets\Plugins\FMOD\LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -455,6 +455,10 @@
     </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
